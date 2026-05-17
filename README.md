@@ -123,23 +123,23 @@ https://testsafebrowsing.appspot.com/s/phishing.html
 Expected:
 
 ⚠ PHISHING DETECTED
-Future Improvements
-Machine Learning phishing classifier
-WHOIS integration
-Domain age checking
-Screenshot reporting system
-Real-time blacklist caching
-Browser notification alerts
+Future Improvements,
+Machine Learning phishing classifier,
+WHOIS integration,
+Domain age checking,
+Screenshot reporting system,
+Real-time blacklist caching,
+Browser notification alerts,
 Learning Outcomes
 
 This project helped in understanding:
 
-Browser Extension Development
-Manifest V3 Architecture
-Threat Intelligence APIs
-Phishing Detection Techniques
-URL Heuristics
-Chrome Storage API
+Browser Extension Development,
+Manifest V3 Architecture,
+Threat Intelligence APIs,
+Phishing Detection Techniques,
+URL Heuristics,
+Chrome Storage API,
 Asynchronous JavaScript
 Author
 
