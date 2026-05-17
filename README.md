@@ -125,7 +125,7 @@ Expected:
 
 ⚠ PHISHING DETECTED
 
-Future Improvements,
+Future Improvements: 
 Machine Learning phishing classifier,
 WHOIS integration,
 Domain age checking,
