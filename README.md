@@ -69,7 +69,8 @@ chrome://extensions
 Enable:
 
 Developer Mode
-3. Load Extension
+
+Then Load Extension
 
 Click:
 
@@ -123,6 +124,7 @@ https://testsafebrowsing.appspot.com/s/phishing.html
 Expected:
 
 ⚠ PHISHING DETECTED
+
 Future Improvements,
 Machine Learning phishing classifier,
 WHOIS integration,
