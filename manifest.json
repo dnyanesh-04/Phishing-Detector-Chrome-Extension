@@ -1,20 +1,47 @@
 {
   "manifest_version": 3,
+
   "name": "Phishing Detector",
-  "version": "1.0",
-  "description": "Detects potential phishing websites and warns the user.",
-  "permissions": ["tabs", "storage", "scripting"],
-  "host_permissions": ["<all_urls>"],
-  "action": {
-    "default_popup": "popup.html"
-  },
+
+  "version": "2.0",
+
+  "description": "Detect phishing and malicious websites using Google Safe Browsing API.",
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+
+  "host_permissions": [
+    "<all_urls>",
+    "https://safebrowsing.googleapis.com/*"
+  ],
+
   "background": {
     "service_worker": "background.js"
   },
+
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+
+      "js": [
+        "content.js"
+      ],
+
+      "run_at": "document_idle"
     }
-  ]
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+
+    "default_title":
+      "Phishing Detector"
+  }
 }
