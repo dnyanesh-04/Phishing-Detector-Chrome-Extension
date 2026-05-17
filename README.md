@@ -141,6 +141,7 @@ Phishing Detection Techniques,
 URL Heuristics,
 Chrome Storage API,
 Asynchronous JavaScript
+
 Author
 
 Dnyanesh Bharat Mohite
